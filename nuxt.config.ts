@@ -17,6 +17,6 @@ export default defineNuxtConfig({
     fonts: {
         families: [
             { name: '', provider: 'google' },
-            }
+       ] 
     }
 })
