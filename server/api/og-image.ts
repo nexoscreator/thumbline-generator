@@ -11,8 +11,7 @@ export default defineEventHandler(async (event) => {
     const bgColor = (query.bgColor as string) || '#1e293b'
     const textColor = (query.textColor as string) || '#ffffff'
     const logoUrl = query.logoUrl as string
-    const Roboto = new FontFace('Roboto', 'url(Roboto-Bold.woff2)');
-    
+      
     // Create canvas
     const width = 1200
     const height = 630
