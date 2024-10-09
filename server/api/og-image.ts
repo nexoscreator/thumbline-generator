@@ -2,7 +2,7 @@ import { createCanvas, loadImage, registerFont} from 'canvas'
 import { defineEventHandler, getQuery, sendStream } from 'h3'
 
 // Register a font (make sure to have the font file in your project)
-registerFont('assets/fonts/Roboto-Bold.woff2', { family: 'Roboto' });
+registerFont('Roboto-Bold.woff2', { family: 'Roboto' });
 
 export default defineEventHandler(async (event) => {
     // Get query parameters
