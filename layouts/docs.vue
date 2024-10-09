@@ -21,7 +21,8 @@
         <article>
             <h1>{{ page.title }}</h1>
             <img width="600" :src="page.image" :alt="page.title" />
-            <div v-html="page.body">
+            <div>
+                <slot/>
                 <!-- Render body content from the content file -->
             </div>
         </article>
